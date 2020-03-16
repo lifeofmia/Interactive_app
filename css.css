@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/81zMH11PiKL._AC_SL1500_.jpg");
+  background-size: 100% 100%;
+}
+#directions{
+  width: 600px;
+  height; 100px;
+  border: black;
+  margin-left: auto;
+}
+
+#container {
+  position: absolute;
+  top:40px;
+  left: 200px;
+  width: 600px;
+  height:500px;
+  cursor: pointer;
+}
+
+#snowman {
+  position: relative;
+  top: 5px;
+}
+
+img {
+  height:100px;
+  width:100px;
+  position: absolute;
+  top:60px;
+  left:180px;
+}
+
+#hat{
+  fill:black;
+}
+#hat2{
+  fill:black;
+}

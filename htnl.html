@@ -1,0 +1,45 @@
+<html>
+<head>
+    <link rel="stylesheet" HREF="Css.css">
+    <title> Snowman Interactive</title>
+</head>
+<body>
+    <div id="directions">
+        <h1> Edit the Landscape </h1>
+        <h2>Press "o" or "k" to change the background</h2>
+        <h2>Click around the stowman's head to move his friend</h2>
+        <h2>Move your mouse over the snowman's hat to change its color</h2>
+    </div>
+    <div id="container">
+        <img id="bird" src="https://webstockreview.net/images/dove-clipart-3.png">
+    </div>
+    <div id="snowman">
+        <svg width="1000" height="500">
+            <circle class="circle" cx="500" cy="100" r="50" fill="blue" />
+            <circle class="circle" cx="500" cy="200" r="70" fill="blue" />
+            <circle class="circle" cx="500" cy="300" r="85" fill="blue" />
+            <circle class="circle" cx="500" cy="175" r="7" fill="pink" />
+            <circle class="circle" cx="500" cy="200" r="7" fill="pink" />
+            <circle class="circle" cx="500" cy="225" r="7" fill="pink" />
+            <circle class="circle" cx="484" cy="87" r="7" fill="black" />
+            <circle class="circle" cx="515" cy="87" r="7" fill="black" />
+            <svg width="10000" height="100">
+                <ellipse id="hat" cx="500.5" cy="50" rx="50" ry="25" />
+            </svg>
+            <svg width="1000" height="100">
+                <rect id="hat2" width="75" height="55" x="463.5" y="0" />
+            </svg>
+            <svg width="1000" height="10000">
+                <polygon points="545,109 500,100 500,118" fill="orange"></polygon>
+                <line x1="445" y1="160" x2="300" y2="70" stroke-width="3" stroke="black" />
+                <line x1="555" y1="160" x2="700" y2="70" stroke-width="3" stroke="black" />
+                <rect width="83" height="15" x="458" y="131" fill="lightgreen" />
+                <rect width="15" height="81" x="520" y="131" fill="lightgreen" />
+                <polyline points="465,145 470,133 475,145 480,133 485,145 490,133 495,145 500,133 505,145 510,133 515,145 520,133 525,145 530,133 535,145" fill="lightgreen" stroke="green" stroke-width=2 />
+            </svg>
+        </svg>
+    </div>
+    <script src="Javascript.js"></script>
+</body>
+
+</html>
